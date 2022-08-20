@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1> Notes in category <i>{{ page.title }}</i> </h1>
+
+<div class="post">
+
+{{content | toc}}
+
+</div>
+        <ul class="posts">
+{% assign folder1 = site.pages | where_exp: "item" , "item.ategory == page.category" | sort:"importance" | reverse %}
+{% for item in folder1 %}
+{% if item.path contains 'index.md' %}
+{% else %}
+- <a href="{{ item.url }}" title="{{ item.description }}">{{item.title | split: "/" | last | remove_first: ".md" }}</a><br/>
+{% endif %}
+{% endfor %}
+   </ul>
