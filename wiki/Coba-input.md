@@ -4,7 +4,7 @@ layout: post
 title: "you try"
 date: 2022-08-21
 description: "trying first"
-language: Indonesian
+language: English
 importance: 4
 ---
 
