@@ -1,12 +1,82 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
-</html>
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="/potted-plant-icon.png"/>
+            <title>{{ page.title }}</title>
+			<link rel="canonical" href="https://geobreed.github.io{{ page.url }}">
+			  <meta name="description" content="{% if page.description %}{{ page.description | strip | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}">
+  			<meta property="og:site_name" content="{{ page.title }}">
+
+            <!-- link rel="preconnect" href="https://fonts.googleapis.com"-->
+			<!-- link rel="preconnect" href="https://fonts.gstatic.com" crossorigin -->
+            <!-- link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"-->
+			<link rel="stylesheet" type="text/css" href="/css/main-min.css">
+
+      <!-- Global site tag (gtag.js) - Google Ads: 10971998752 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10971998752"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10971998752');
+      </script>
+
+			{% if page.description %}
+			  <meta property="og:description" content="{{ page.description | strip_newlines | strip | truncate: 160 }}">
+			{% else %}
+			  <meta property="og:description" content="{{ page.title | strip_newlines | truncate: 160 }}">
+	  		{% endif %}
+	  		<meta property="og:locale" content="en_US">
+	  		{% if page.date %}
+			  <meta property="og:title" content="{{ page.title }}">
+			  <meta property="og:type" content="article">
+		  	  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+		      <meta property="article:author" content="{{ site.url }}/">
+
+		  	{% endif %}
+		  	{% if page.url == "/" %}
+  				<meta property="og:url" content="https://geobreed.github.io">
+  			{% else %}
+  				<meta property="og:url" content="https://geobreed.github.io{{ page.url }}">
+  			{% endif %}
+  			<meta content="index,follow" name="robots"><!-- All Search Engines -->
+  			<meta content="index,follow" name="googlebot"><!-- Google Specific -->
+
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+              <!-- commenting <li><a href="/resources/Luciano_Strika.pdf">CV</a></li> -->
+	        		<li><a href="/wiki">Digital Garden</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	        		<!-- commenting <li><a href="https://www.medium.com/@StrikingLoo">Other Blog</a></li> -->
+	    		</ul>
+			</nav>
+			<div class="container">
+
+			{{ content }}
+
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:geobreed@gmail.com" rel="me"><i class="far fa-envelope"></i></a></li>
+	        		<li><a href="https://github.com/geobreed" rel="me"><i class="fab fa-github"></i></a></li>
+			        <!-- commenting <li><a href="http://twitter.com/strikingloo" rel="me"><i class="fab fa-twitter"></i></a></li> -->
+			        <!-- commenting <li><a href="http://dev.to/strikingloo" rel="me"><i class="fab fa-dev"></i></a></li> -->
+			        <!-- commenting <li><a href="http://www.linkedin.com/in/luciano-strika" rel="me"><i class="fab fa-linkedin"></i></a></li> -->
+				      <!-- commenting <li><a href="https://www.medium.com/@StrikingLoo" rel="me"> <i class="fab fa-medium"></i> </a></li> -->
+				</ul>
+				<p><i>Built with 🌈 by <a href="https://geobreed.github.io/">geobreed</a>.</i></p>
+			</footer>
+
+			<script defer src="https://kit.fontawesome.com/695103c91f.js" crossorigin="anonymous"></script>
+			{% if page.uses_mathjax %}
+			<script defer src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+			{% endif %}
+		</body>
+	</html>
