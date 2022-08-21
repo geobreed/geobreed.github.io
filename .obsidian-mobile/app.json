@@ -1,1 +1,7 @@
-{}
+{
+  "showFrontmatter": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets"
+}
