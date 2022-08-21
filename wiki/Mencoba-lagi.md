@@ -9,5 +9,5 @@ importance: 4
 ---
 
 Second update
-[[navigation-guide]]
+
 [index](../digital-garden/index.md)

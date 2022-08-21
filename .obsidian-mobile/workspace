@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "efd4e726df05d35d",
+        "id": "e09202fe4a25ef79",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "wiki/Mencoba-lagi.md",
+            "file": "digital-garden/index.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "wiki/Mencoba-lagi.md",
+            "file": "digital-garden/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "wiki/Mencoba-lagi.md",
+            "file": "digital-garden/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,17 +106,17 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "wiki/Mencoba-lagi.md"
+            "file": "digital-garden/index.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "5819cf820f733ab5",
+  "active": "e09202fe4a25ef79",
   "lastOpenFiles": [
-    "wiki/Coba-input.md",
     "wiki/Mencoba-lagi.md",
+    "wiki/Coba-input.md",
     "README.md",
     "digital-garden/index.md",
     "_posts/2018-08-20-bananas.md",
