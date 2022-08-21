@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "898274ec33fd09ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "efd4e726df05d35d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "wiki/Mencoba-lagi.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7573c00b722d32dc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5819cf820f733ab5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "d037913076835972",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2ef8a1cb5a61fdb9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "3423b30533dc0289",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "878d6fc43aaa6463",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1d00824228f20a50",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "wiki/Mencoba-lagi.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8314e0133ef6f6a8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "wiki/Mencoba-lagi.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "3d24fa23c2551d1a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "wiki/Mencoba-lagi.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "efd4e726df05d35d",
+  "lastOpenFiles": [
+    "wiki/Coba-input.md",
+    "wiki/Mencoba-lagi.md",
+    "README.md",
+    "digital-garden/index.md",
+    "_posts/2018-08-20-bananas.md",
+    "wiki/100-bytes-css.md"
+  ]
+}

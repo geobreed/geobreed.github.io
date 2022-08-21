@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "e3e772795654b6f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c5f3b0b0a85d747",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "wiki/Coba-input.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1dda4fcf25c2cf71",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "565894fd4381da40",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "8148da729d9b10f5",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "47c4064d55e97187",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "fcb94d0dca0b3422",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "644c8ad434ea7fea",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "37f5987c97d7f50b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "wiki/Coba-input.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7b5d48038a46bd7a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "wiki/Coba-input.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0fc3d88dd38109e4",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "wiki/Coba-input.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "2c5f3b0b0a85d747",
+  "lastOpenFiles": [
+    "2022-08-21.md",
+    "wiki/Coba-input.md",
+    "Coba-input.md",
+    "A.md"
+  ]
+}
